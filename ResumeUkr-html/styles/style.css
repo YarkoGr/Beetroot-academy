@@ -1,0 +1,47 @@
+body {
+    border: 5px solid black;
+    padding: 25px;
+}
+
+header {
+    display: flex;
+    border-bottom: 5px solid black;
+}
+
+header a {
+    text-decoration: none;
+}
+
+figure>img {
+    border: 2px solid grey;
+}
+
+.contacts {
+    margin-top: 25px;
+}
+
+h2 {
+    text-align: center;
+    padding: 100px 0 20px 0;
+    border-bottom: 2px solid grey;
+}
+
+span {
+    display: block;
+    text-align: center;
+    padding-top: 25px;
+}
+
+blockquote {
+    padding-top: 25px;
+}
+
+.links img {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+}
+
+.links {
+    text-align: center;
+}
