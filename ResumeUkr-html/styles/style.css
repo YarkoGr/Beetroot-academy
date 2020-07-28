@@ -1,11 +1,17 @@
 body {
     border: 5px solid black;
     padding: 25px;
+    background: url(/img/bg-ukr-resume.png);
+    font-family: "Noto Sans", sans-serif;
 }
 
 header {
     display: flex;
     border-bottom: 5px solid black;
+}
+
+address {
+    padding-top: 20px;
 }
 
 header a {
@@ -40,6 +46,11 @@ blockquote {
     width: 150px;
     height: 150px;
     padding: 20px;
+    border-radius: 50%;
+}
+
+.links img:hover {
+    transform: scale(1.3);
 }
 
 .links {

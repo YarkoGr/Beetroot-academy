@@ -1,10 +1,12 @@
 body {
     border: 5px solid black;
     padding: 25px;
-    background-image: url(/img/site-background-min.jpg);
+    background-image: url(../img/bg.jpg);
 }
 
 header {
+    height: 300px;
+    text-align: center;
     display: flex;
     border-bottom: 5px solid black;
 }
@@ -15,6 +17,10 @@ header a {
 
 figure>img {
     border: 2px solid grey;
+}
+
+address {
+    padding-top: 20px;
 }
 
 .contacts {
@@ -46,7 +52,7 @@ blockquote {
     width: 150px;
     height: 150px;
     border-radius: 75px;
-    background-image: url(/img/sprite-git-fb150.png);
+    background-image: url(../img/sprite-git-fb150.png);
     margin: auto;
 }
 
